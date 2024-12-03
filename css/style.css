@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+* {
+    margin: 0; /* внешние отступы */
+    padding: 0; /* внутренние отступы*/
+}
+
+.body{
+    width: 100%;
+}
+
+a { /* для всех ссылок */
+    text-decoration: none; /* убрать _ */
+    color: #1B251E;
+
+}
+
+img{
+    max-width: 100%; /*максимальная ширина, чтобы не вылазело за пределы род. блока*/
+
+}
+
+.navbar .logo{
+    width: 188px;
+    height: 44px;
+}
+
+.navbar{
+    display: flex; /* элементы списка встались горизонтально */
+    font-family: 'proxima-nova', sans-serif;
+    margin: 10px 200px;
+}
+
+.navbar nav ul{
+    list-style: none; /* удаляем точки в списке */
+    display: flex; /* элементы списка встались горизонтально */
+    justify-content: space-between; /* растягивание элементов на всю ширину */
+    margin-left: 30px;
+    margin-top: 0px;
+
+}
+
+.navbar nav ul li{
+    display: inline-block;
+    font-family: 'proxima-nova', sans-serif;
+    margin: 10px;
+    font-size: 16px;/*16*/
+
+}
+
+.navbar nav ul li a {
+    color: #1B251E;
+}
+
+.navbar .contact{
+    padding-left: 200px;
+    display: flex;
+}
+
+.hero{
+    width: 100%;
+}
+
+.list ul{
+    justify-content: space-between; /* растягивание элементов на всю ширину */
+    display: flex; /* элементы списка встались горизонтально */
+    list-style: none;
+    font-family: 'proxima-nova', sans-serif;
+
+}
+.list nav{
+    margin: 30px 350px;
+}
+
+.list ul li{
+    margin: 0px 10px;
+    font-size: 18px;/*16*/
+}
+
+.contact{
+    margin: 0px;
+    color: #00C234;
+}
+
+.contact .social_media{
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.contact .social_media > img, .contact .social_media div img{
+    width: 12px;
+    height: 12px;
+}
+
+.contact .take{
+    padding-top: 5px;
+    float: right; /* позиционирование кнопки по правую сторону */
+    color: #00C234
+}
+
+.contact .obj{
+    width: 34px;
+    height: 30px;
+}
+.contact .info p{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.goods p{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 14px;
+}
+
+.goods .inline{
+    display: flex; /* элементы списка встались горизонтально */
+    justify-content: space-between; /* растягивание элементов на всю ширину */
+
+}
+
+.goods img{
+    width: 210px;
+    height: 182px;
+}
+
+.goods .inline p{
+    text-align: center;
+}
+
+.goods .inline h1{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'proxima-nova', sans-serif;
+    color: #03972B;
+    padding-top: 3px;
+}
