@@ -107,6 +107,10 @@ img{
     font-weight: 700;
 }
 
+.goods{
+    padding-bottom: 60px;
+}
+
 .goods p{
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
@@ -133,4 +137,55 @@ img{
     font-family: 'proxima-nova', sans-serif;
     color: #03972B;
     padding-top: 3px;
+}
+
+.goods .second_line{
+    display: flex;
+    justify-content: center;
+}
+
+.goods .second_line > div{
+    margin: 0px 30px;
+}
+
+.info-shop .back{
+    width: 1918px;
+    height: 549px;
+}
+
+.info-shop > div{
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    top: -500px;
+
+}
+
+.info-shop p{
+    width: 60%;
+    text-align: center;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 0px;
+
+}
+
+.info-shop h1{
+    top: -500px;
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.info-shop > div > .left{
+    margin-left: 130px;
+}
+
+.info-shop .cent{
+}
+
+.info-shop .right{
+    margin-left: 150px;
 }
